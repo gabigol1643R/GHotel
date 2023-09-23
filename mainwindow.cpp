@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "fm_reserva.h"
+#include "fm_checkout.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -19,5 +20,12 @@ void MainWindow::on_btn_reservar_clicked()
 {
     fm_reserva f_reserva;
     f_reserva.exec();
+}
+
+
+void MainWindow::on_btn_checkout_clicked()
+{
+    fm_checkout f_checkout;
+    f_checkout.exec();
 }
 

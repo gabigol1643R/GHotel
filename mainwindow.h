@@ -18,6 +18,8 @@ public:
 private slots:
     void on_btn_reservar_clicked();
 
+    void on_btn_checkout_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
