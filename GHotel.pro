@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     conexao.cpp \
     fm_checkout.cpp \
+    fm_disponiveis.cpp \
     fm_reserva.cpp \
     main.cpp \
     mainwindow.cpp
@@ -18,11 +19,13 @@ SOURCES += \
 HEADERS += \
     conexao.h \
     fm_checkout.h \
+    fm_disponiveis.h \
     fm_reserva.h \
     mainwindow.h
 
 FORMS += \
     fm_checkout.ui \
+    fm_disponiveis.ui \
     fm_reserva.ui \
     mainwindow.ui
 

@@ -20,6 +20,8 @@ private slots:
 
     void on_btn_checkout_clicked();
 
+    void on_btn_disponiveis_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fm_disponiveis</class>
+ <widget class="QDialog" name="fm_disponiveis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+	background-color:#00FFFF;
+	color: black;
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>351</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Quartos disponíveis</string>
+   </property>
+   <widget class="QLabel" name="label101">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#00FFFF;</string>
+    </property>
+    <property name="text">
+     <string>   101</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label102">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#00FFFF;</string>
+    </property>
+    <property name="text">
+     <string>   102</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label103">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>    103</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label104">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>   104</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label106">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>   106</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label105">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#00FFFF;</string>
+    </property>
+    <property name="text">
+     <string>    105</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
