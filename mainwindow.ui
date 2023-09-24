@@ -13,14 +13,24 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	background-color: #7B68EE;
+	color: white;
+	font-size: 16px;
+	border-radius: 15px;
+
+
+}</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_reservar">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>193</x>
       <y>20</y>
-      <width>121</width>
-      <height>41</height>
+      <width>151</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -30,10 +40,10 @@
    <widget class="QPushButton" name="btn_checkout">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>100</y>
-      <width>121</width>
-      <height>41</height>
+      <x>194</x>
+      <y>110</y>
+      <width>151</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -43,27 +53,14 @@
    <widget class="QPushButton" name="btn_disponiveis">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>160</y>
-      <width>121</width>
+      <x>193</x>
+      <y>200</y>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
      <string>Quartos disponíveis</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn_transacoes">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>230</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Transações</string>
     </property>
    </widget>
   </widget>
